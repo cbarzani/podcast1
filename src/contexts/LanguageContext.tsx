@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+
 
 type Language = 'en' | 'ku' | 'ar';
 
@@ -281,7 +282,16 @@ const translations = {
 };
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
+  // 1) Default Kurdish
+  const [language, setLanguage] = useState<Language>(() => {
+    const saved = localStorage.getItem('lang') as Language | null;
+    return saved ?? 'ku';
+  });
+
+  // 2) Save whenever it changes
+  useEffect(() => {
+    localStorage.setItem('lang', language);
+  }, [language]);
 
   const t = (key: string): string => {
     return translations[language][key] || key;
@@ -292,12 +302,4 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       {children}
     </LanguageContext.Provider>
   );
-}
-
-export function useLanguage() {
-  const context = useContext(LanguageContext);
-  if (!context) {
-    throw new Error('useLanguage must be used within a LanguageProvider');
-  }
-  return context;
 }
