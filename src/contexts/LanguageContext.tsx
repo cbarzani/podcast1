@@ -158,8 +158,8 @@ const translations = {
     'popular.views': 'بینەران',
     
     // Social Media Section
-    'social.title': 'پەیوەندیمان پێوە بکە',
-    'social.description': 'لە سۆشیال میدیادا فۆڵۆومان بکە بۆ نوێکاری، ناوەڕۆکی پشت ڕوداو و زیاتر',
+    'social.title': 'سۆشیاڵ میدیاکانی چیرۆکیان ',
+    'social.description': ' فۆڵۆومان بکە ',
     'social.youtube': 'یوتیوب',
     'social.instagram': 'ئینستاگرام',
     'social.facebook': 'فەیسبووک',
