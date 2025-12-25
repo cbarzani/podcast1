@@ -125,7 +125,7 @@ const translations = {
     'about.stat1.number': '50M+',
     'about.stat1.label': 'کۆی بینەران',
     'about.stat2.number': '20+',
-    'about.stat2.label': 'بەشەکان',
+    'about.stat2.label': 'ئەڵقەی تۆمارکراو',
     'about.stat3.number': '50K+',
     'about.stat3.label': 'فۆڵۆوەران',
     'about.founder.title': 'دامەزرێنەر',
