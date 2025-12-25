@@ -121,7 +121,7 @@ const translations = {
     
     // About Section
     'about.title': 'دەربارەی چیرۆکیان',
-    'about.description': 'خەڵک چیرۆکە ڕاستەقینەکانیان دەگێڕنەوە. هەموو دەنگێک گرنگە و هەموو چیرۆکێک شایانی گوێگرتنە.',
+    'about.description': 'خەڵک چیرۆکە ڕاستەقینەکانیان دەگێڕنەوە. هەموو دەنگێک گرنگە و هەموو چیرۆکێک شایانی گوێگرتنە',
     'about.stat1.number': '50M+',
     'about.stat1.label': 'کۆی بینەران',
     'about.stat2.number': '20+',
