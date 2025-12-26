@@ -20,13 +20,13 @@ const videos = [
     duration: '45:22',
     url: 'https://youtu.be/Z_IJ2OA9g-o?si=XT8BbUMbwaV7axWA'
   },
-  {
+ {
     id: 3,
     titleKey: 'videos.episode3.title',
     descriptionKey: 'videos.episode3.description',
-    thumbnail: 'https://img.youtube.com/vi/gR0VCYEiVkM/maxresdefault.jpg',
+    thumbnail: 'https://img.youtube.com/vi/kbQ_NGRZppE/maxresdefault.jpg',
     duration: '52:18',
-    url: 'https://youtu.be/gR0VCYEiVkM?si=kHpgUmHZ0jwBRoQf'
+    url: 'https://youtu.be/kbQ_NGRZppE?si=C2Y3a5rNBHurQuP2'
   }
 ];
 
