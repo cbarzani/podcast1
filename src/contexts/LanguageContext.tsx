@@ -143,7 +143,7 @@ const translations = {
     'videos.episode1.description': 'پەیوەند جاف چیرۆکی ژیانی خۆی دەگێڕێتەوە',
     'videos.episode2.title': 'د.نەرمین تەها چیرۆکی ژیانی خۆی دەگێڕێتەوە',
     'videos.episode2.description': 'د.نەرمین تەها چیرۆکی ژیانی خۆی دەگێڕێتەوە',
-    'videos.episode3.title': 'م.ئەحمەد شافعی چیرۆکی ژیانی خۆی دەگێڕێتەوە',
+    'videos.episode3.title': 'خاوەنی کەباب یاسین چیرۆکی ژیانی خۆی دەگێڕێتەوە',
     'videos.episode3.description': 'م.ئەحمەد شافعی چیرۆکی ژیانی خۆی دەگێڕێتەوە',
     
     // Popular Episodes Section
