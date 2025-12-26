@@ -1,6 +1,4 @@
-"use client";
-
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 type Language = 'en' | 'ku' | 'ar';
 
@@ -12,12 +10,7 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-// ✅ ADD THIS LINE (right here)
-type Translations = Record<Language, Record<string, string>>;
-
-// ✅ CHANGE THIS LINE
-const translations: Translations = {
-
+const translations = {
   en: {
     // Navigation
     'nav.home': 'Home',
@@ -29,14 +22,14 @@ const translations: Translations = {
     'nav.language.english': 'English',
     'nav.language.kurdish': 'کوردی',
     'nav.language.arabic': 'العربية',
-    
+
     // Hero Section
     'hero.title': 'چیرۆکیان',
     'hero.subtitle': 'Real Stories, Real Voices',
     'hero.description': 'Join us on a journey through authentic conversations and compelling narratives',
     'hero.watchLatest': 'Watch Latest Episode',
     'hero.exploreMore': 'Explore More',
-    
+
     // About Section
     'about.title': 'About چیرۆکیان',
     'about.description': 'Real people sharing authentic stories. Every voice matters, every story deserves to be heard.',
@@ -50,7 +43,7 @@ const translations: Translations = {
     'about.founder.name': 'Doctor Hazhar Salam',
     'about.founder.role': 'Founder & Host',
     'about.founder.bio': 'Passionate listener dedicated to sharing authentic voices and meaningful conversations.',
-    
+
     // Videos Section
     'videos.title': 'Latest Episodes',
     'videos.description': 'Watch our most recent conversations and discover compelling stories',
@@ -62,7 +55,7 @@ const translations: Translations = {
     'videos.episode2.description': 'Dr. Nermin Taha Tells Her Life Story',
     'videos.episode3.title': 'M. Ahmed Shafei Tells His Life Story',
     'videos.episode3.description': 'M. Ahmed Shafei Tells His Life Story',
-    
+
     // Popular Episodes Section
     'popular.badge': 'Most Popular',
     'popular.title': 'Most Watched Episodes',
@@ -74,7 +67,7 @@ const translations: Translations = {
     'popular.episode3.title': 'Most Watched Episode #3',
     'popular.episode3.description': 'Dr. Karim Sharif Qarachatani Tells His Life Story',
     'popular.views': 'views',
-    
+
     // Social Media Section
     'social.title': 'Connect With Us',
     'social.description': 'Follow us on social media for updates, behind-the-scenes content, and more',
@@ -90,7 +83,7 @@ const translations: Translations = {
     'social.instagram.followers': '50K+ Followers',
     'social.facebook.followers': 'Connections',
     'social.tiktok.followers': '50K+ Followers',
-    
+
     // Contact Section
     'contact.title': 'Get In Touch',
     'contact.description': 'Have a story to share or interested in sponsorship opportunities? We\'d love to hear from you.',
@@ -101,7 +94,7 @@ const translations: Translations = {
     'contact.sponsorship.value': 'hazharsalam62@gmail.com',
     'contact.general.label': 'General Questions',
     'contact.general.value': 'hazharsalam62@gmail.com',
-    
+
     // Footer
     'footer.rights': '© 2025 چیرۆکیان. All rights reserved.',
     'footer.madeBy': 'made by dolamari',
@@ -118,14 +111,14 @@ const translations: Translations = {
     'nav.language.english': 'ئینگلیزی',
     'nav.language.kurdish': 'کوردی',
     'nav.language.arabic': 'عەرەبی',
-    
+
     // Hero Section
     'hero.title': 'چیرۆکیان',
     'hero.subtitle': 'چیرۆکی ڕاستەقینە، دەنگی ڕاستەقینە',
     'hero.description': 'پێکەوە بەشداری گفتوگۆی ڕاستەقینە و چیرۆکە سەرنجڕاکێشەکان بکە',
     'hero.watchLatest': 'سەیری دوایین بەش بکە',
     'hero.exploreMore': 'زیاتر بگەڕێ',
-    
+
     // About Section
     'about.title': 'دەربارەی چیرۆکیان',
     'about.description': 'خەڵک چیرۆکە ڕاستەقینەکانیان دەگێڕنەوە. هەموو دەنگێک گرنگە و هەموو چیرۆکێک شایانی گوێگرتنە',
@@ -139,7 +132,7 @@ const translations: Translations = {
     'about.founder.name': 'دکتۆر هەژار سەلام',
     'about.founder.role': 'دامەزرێنەر و پێشکەشکار',
     'about.founder.bio': 'گوێگرێکی چالاکە کە بە هێمنی گوێ لە چیرۆکی میوانەکان دەگرێت. خۆی تەرخان کردووە بۆ هاوبەشیکردنی دەنگە کاریگەر و ڕاستەقینە کوردییەکان و گفتوگۆی پڕ بەها',
-    
+
     // Videos Section
     'videos.title': 'دوایین بەشەکان',
     'videos.description': 'سەیری دوایین گفتوگۆکانمان بکە و چیرۆکە سەرنجڕاکشەکان بدۆزەرەوە',
@@ -149,9 +142,9 @@ const translations: Translations = {
     'videos.episode1.description': 'پەیوەند جاف چیرۆکی ژیانی خۆی دەگێڕێتەوە',
     'videos.episode2.title': 'د.نەرمین تەها چیرۆکی ژیانی خۆی دەگێڕێتەوە',
     'videos.episode2.description': 'د.نەرمین تەها چیرۆکی ژیانی خۆی دەگێڕێتەوە',
-    'videos.episode3.title': 'خاوەنی کەباب یاسین چیرۆکی ژیانی خۆی دەگێڕێتەوە',
+    'videos.episode3.title': 'م.ئەحمەد شافعی چیرۆکی ژیانی خۆی دەگێڕێتەوە',
     'videos.episode3.description': 'م.ئەحمەد شافعی چیرۆکی ژیانی خۆی دەگێڕێتەوە',
-    
+
     // Popular Episodes Section
     'popular.badge': 'پێکەوەکەرەتەرین',
     'popular.title': 'زۆرترین بینراو',
@@ -163,8 +156,10 @@ const translations: Translations = {
     'popular.episode3.title': 'زۆرترین بینراو #3',
     'popular.episode3.description': 'د.کەیم شەریف قەرەچەتانی چیرۆکی ژیانی خۆی دەگێڕێتەوە',
     'popular.views': 'بینەران',
-    
+
     // Social Media Section
+    'social.title': 'پەیوەندیمان پێوە بکە',
+    'social.description': 'لە سۆشیال میدیادا فۆڵۆومان بکە بۆ نوێکاری، ناوەڕۆکی پشت ڕوداو و زیاتر',
     'social.title': 'سۆشیاڵ میدیاکانی چیرۆکیان ',
     'social.description': ' فۆڵۆومان بکە ',
     'social.youtube': 'یوتیوب',
@@ -179,7 +174,7 @@ const translations: Translations = {
     'social.instagram.followers': '50K+ فۆڵۆوەر',
     'social.facebook.followers': 'پەیوەندی',
     'social.tiktok.followers': '50K+ فۆڵۆوەر',
-    
+
     // Contact Section
     'contact.title': 'پەیوەندیمان پێوە بکە',
     'contact.description': 'چیرۆکێکت هەیە بۆ هاوبەشکردن یان حەزت لە سپۆنسەرکردن هەیە؟ خۆشحاڵ دەبین لە بیستنی دەنگت.',
@@ -190,7 +185,7 @@ const translations: Translations = {
     'contact.sponsorship.value': 'hazharsalam62@gmail.com',
     'contact.general.label': 'پرسیارە گشتییەکان',
     'contact.general.value': 'hazharsalam62@gmail.com',
-    
+
     // Footer
     'footer.rights': '© 2025 چیرۆکیان. هەموو مافێک پارێزراوە.',
     'footer.madeBy': 'made by dolamari',
@@ -207,14 +202,14 @@ const translations: Translations = {
     'nav.language.english': 'English',
     'nav.language.kurdish': 'کوردی',
     'nav.language.arabic': 'العربية',
-    
+
     // Hero Section
     'hero.title': 'چیرۆکیان',
     'hero.subtitle': 'قصص حقيقية، أصوات حقيقية',
     'hero.description': 'انضم إلينا في رحلة عبر محادثات أصيلة وروايات مقنعة',
     'hero.watchLatest': 'شهد أحدث حلقة',
     'hero.exploreMore': 'استكشف اكثر',
-    
+
     // About Section
     'about.title': 'عن چیرۆکیان',
     'about.description': 'أشخاص حقيقيون يشاركون في قصصهم الحقيقية. كل صوت مهم، كل قصة تستحق أن تُسمع.',
@@ -228,7 +223,7 @@ const translations: Translations = {
     'about.founder.name': 'دکتور هەزار سلام',
     'about.founder.role': 'المؤسس والمقدم',
     'about.founder.bio': 'مستمع شغوف مكرس لمشاركة الأصوات الأصيلة والمحادثات الهادفة.',
-    
+
     // Videos Section
     'videos.title': 'أحدث الحلقات',
     'videos.description': 'شاهد أحدث محادثاتنا واكتشف قصصاً مقنعة',
@@ -240,7 +235,7 @@ const translations: Translations = {
     'videos.episode2.description': 'د. نيرمين طه تروي قصة حياتها',
     'videos.episode3.title': 'م. أحمد شافعي يروي قصة حياته',
     'videos.episode3.description': 'م. أحمد شافعي يروي قصة حياته',
-    
+
     // Popular Episodes Section
     'popular.badge': 'الأكثر شعبية',
     'popular.title': 'الحلقات الأكثر مشاهدة',
@@ -252,7 +247,7 @@ const translations: Translations = {
     'popular.episode3.title': 'الحلقة الأكثر مشاهدة #3',
     'popular.episode3.description': 'د. كريم شريف قراجاتاني يروي قصة حياته',
     'popular.views': 'مشاهدات',
-    
+
     // Social Media Section
     'social.title': 'تواصل معنا',
     'social.description': 'تابعنا على وسائل التواصل الاجتماعي للحصول على التحديثات والمحتوى من وراء الكواليس والمزيد',
@@ -268,7 +263,7 @@ const translations: Translations = {
     'social.instagram.followers': '50K+ متابعين',
     'social.facebook.followers': 'تواصل',
     'social.tiktok.followers': '50K+ متابعين',
-    
+
     // Contact Section
     'contact.title': 'تواصل معنا',
     'contact.description': 'هل لديك قصة لمشاركتها أو مهتم بفرص الرعاية؟ نود أن نسمع منك.',
@@ -279,7 +274,7 @@ const translations: Translations = {
     'contact.sponsorship.value': 'hazharsalam62@gmail.com',
     'contact.general.label': 'الأسئلة العامة',
     'contact.general.value': 'hazharsalam62@gmail.com',
-    
+
     // Footer
     'footer.rights': '© 2025 چیرۆکیان. جميع الحقوق محفوظة.',
     'footer.madeBy': 'made by dolamari',
@@ -288,16 +283,7 @@ const translations: Translations = {
 };
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  // 1) Default Kurdish
-  const [language, setLanguage] = useState<Language>(() => {
-    const saved = localStorage.getItem('lang') as Language | null;
-    return saved ?? 'ku';
-  });
-
-  // 2) Save whenever it changes
-  useEffect(() => {
-    localStorage.setItem('lang', language);
-  }, [language]);
+  const [language, setLanguage] = useState<Language>('en');
 
   const t = (key: string): string => {
     return translations[language][key] || key;
@@ -308,4 +294,12 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       {children}
     </LanguageContext.Provider>
   );
+}
+
+export function useLanguage() {
+  const context = useContext(LanguageContext);
+  if (!context) {
+    throw new Error('useLanguage must be used within a LanguageProvider');
+  }
+  return context;
 }
