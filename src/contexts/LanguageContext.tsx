@@ -1,6 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
-
 type Language = 'en' | 'ku' | 'ar';
 
 interface LanguageContextType {
@@ -11,7 +10,12 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
-const translations = {
+// ✅ ADD THIS LINE (right here)
+type Translations = Record<Language, Record<string, string>>;
+
+// ✅ CHANGE THIS LINE
+const translations: Translations = {
+
   en: {
     // Navigation
     'nav.home': 'Home',
