@@ -119,7 +119,7 @@ const translations = {
     "contact.general.value": "hazharsalam62@gmail.com",
 
     // Footer
-    "footer.rights": "© 2025 چیرۆکیان. All rights reserved.",
+    "footer.rights": "© 2026 چیرۆکیان. All rights reserved.",
     "footer.madeBy": "made by dolamari",
     "footer.tagline":
       "Every story matters. Every voice counts.",
@@ -225,7 +225,7 @@ const translations = {
     "contact.general.value": "hazharsalam62@gmail.com",
 
     // Footer
-    "footer.rights": "© 2025 چیرۆکیان. هەموو مافێک پارێزراوە.",
+    "footer.rights": "© 2026 چیرۆکیان. هەموو مافێک پارێزراوە.",
     "footer.madeBy": "made by dolamari",
     "footer.tagline":
       "هەموو چیرۆکێک گرنگە. هەموو دەنگێک دەژمێردرێت.",
@@ -327,7 +327,7 @@ const translations = {
     "contact.general.value": "hazharsalam62@gmail.com",
 
     // Footer
-    "footer.rights": "© 2025 چیرۆکیان. جميع الحقوق محفوظة.",
+    "footer.rights": "© 2026 چیرۆکیان. جميع الحقوق محفوظة.",
     "footer.madeBy": "made by dolamari",
     "footer.tagline": "كل قصة مهمة. كل صوت ُحسُّن.",
   },
