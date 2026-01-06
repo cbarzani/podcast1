@@ -140,7 +140,7 @@ const translations = {
     "hero.title": "چیرۆکیان",
     "hero.subtitle": "چیرۆکی ڕاستەقینە، دەنگی ڕاستەقینە",
     "hero.description":
-      "پێکەوە بەشداری گفتوگۆی ڕاستەقینە و چیرۆکە سەر��جڕاکێشەکان بکە",
+      "پێکەوە بەشداری گفتوگۆی ڕاستەقینە و چیرۆکە سەرجڕاکێشەکان بکە",
     "hero.watchLatest": "سەیری دوایین بەش بکە",
     "hero.exploreMore": "زیاتر بگەڕێ",
 
@@ -337,7 +337,7 @@ export function LanguageProvider({
 }: {
   children: ReactNode;
 }) {
-  const [language, setLanguage] = useState<Language>("en");
+  const [language, setLanguage] = useState<Language>("ku");
 
   const t = (key: string): string => {
     return translations[language][key] || key;
