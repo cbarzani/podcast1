@@ -61,17 +61,17 @@ const translations = {
     "videos.viewAll": "View All Episodes on YouTube",
     "videos.watchAll": "Watch All Episodes",
     "videos.episode1.title":
-      "Saman's Mother Tells Her Life Story",
+      "Dr. Saeed Totmaee Tells His Life Story - Part 2",
     "videos.episode1.description":
-      "Saman's Mother Tells Her Life Story",
+      "Dr. Saeed Totmaee Tells His Life Story - Part 2",
     "videos.episode2.title":
-      "Owner of Kebab Yasin Tells His Life Story",
+      "Saman's Mother Tells Her Life Story",
     "videos.episode2.description":
-      "Owner of Kebab Yasin Tells His Life Story",
+      "Saman's Mother Tells Her Life Story",
     "videos.episode3.title":
-      "Peyawand Jaf Tells His Life Story",
+      "Owner of Kebab Yasin Tells His Life Story",
     "videos.episode3.description":
-      "Peyawand Jaf Tells His Life Story",
+      "Owner of Kebab Yasin Tells His Life Story",
 
     // Popular Episodes Section
     "popular.badge": "Most Popular",
@@ -119,7 +119,7 @@ const translations = {
     "contact.general.value": "hazharsalam62@gmail.com",
 
     // Footer
-    "footer.rights": "© 2025 چیرۆکیان. All rights reserved.",
+    "footer.rights": "© 2026 چیرۆکیان. All rights reserved.",
     "footer.madeBy": "made by dolamari",
     "footer.tagline":
       "Every story matters. Every voice counts.",
@@ -167,17 +167,17 @@ const translations = {
     "videos.viewAll": "هەموو بەشەکان لە یوتیوب ببینە",
     "videos.watchAll": "هەموو بەشەکان ببینە",
     "videos.episode1.title":
-      "دایکی سامان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر سەعید توتمەیی چیرۆکی ژیانی خۆی دەگێڕێتەوە - بەشی دووەم",
     "videos.episode1.description":
-      "دایکی سامان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر سەعید توتمەیی چیرۆکی ژیانی خۆی دەگێڕێتەوە - بەشی دووەم",
     "videos.episode2.title":
-      "خاوەنی کەباب یاسین چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دایکی سامان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode2.description":
-      "خاوەنی کەباب یاسین چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دایکی سامان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode3.title":
-      "پەیوەند جاف چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "خاوەنی کەباب یاسین چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode3.description":
-      "پەیوەند جاف چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "خاوەنی کەباب یاسین چیرۆکی ژیانی خۆی دەگێڕێتەوە",
 
     // Popular Episodes Section
     "popular.badge": "پێکەوەکەرەتەرین",
@@ -218,14 +218,14 @@ const translations = {
       "چیرۆکێکت هەیە بۆ هاوبەشکردن یان حەزت لە سپۆنسەرکردن هەیە؟ خۆشحاڵ دەبین لە بیستنی دەنگت.",
     "contact.email.label": "ئیمەڵمان بۆ بنێرە",
     "contact.email.value": "hazharsalam62@gmail.com",
-    "contact.phone.label": "پەیوەندی بە تێلەفۆن",
+    "contact.phone.label": "پەیوەندی بە ێلەفۆن",
     "contact.sponsorship.label": "بۆ پرسیاری سپۆنسەرکردن",
     "contact.sponsorship.value": "hazharsalam62@gmail.com",
     "contact.general.label": "پرسیارە گشتییەکان",
     "contact.general.value": "hazharsalam62@gmail.com",
 
     // Footer
-    "footer.rights": "© 2025 چیرۆکیان. هەموو مافێک پارێزراوە.",
+    "footer.rights": "© 2026 چیرۆکیان. هەموو مافێک پارێزراوە.",
     "footer.madeBy": "made by dolamari",
     "footer.tagline":
       "هەموو چیرۆکێک گرنگە. هەموو دەنگێک دەژمێردرێت.",
@@ -272,13 +272,15 @@ const translations = {
       "شاهد أحدث محادثاتنا واكتشف قصصاً مقنعة",
     "videos.viewAll": "شاهد جميع الحلقات على يوتيوب",
     "videos.watchAll": "شاهد جميع الحلقات",
-    "videos.episode1.title": "أم سامان تروي قصة حياتها",
-    "videos.episode1.description": "أم سامان تروي قصة حياتها",
-    "videos.episode2.title": "مالك كباب ياسين يروي قصة حياته",
-    "videos.episode2.description":
+    "videos.episode1.title":
+      "دكتور سعيد توتماي يروي قصة حياته - الجزء 2",
+    "videos.episode1.description":
+      "دكتور سعيد توتماي يروي قصة حياته - الجزء 2",
+    "videos.episode2.title": "أم سامان تروي قصة حياتها",
+    "videos.episode2.description": "أم سامان تروي قصة حياتها",
+    "videos.episode3.title": "مالك كباب ياسين يروي قصة حياته",
+    "videos.episode3.description":
       "مالك كباب ياسين يروي قصة حياته",
-    "videos.episode3.title": "بيوند جاف يروي قصة حياته",
-    "videos.episode3.description": "بيوند جاف يروي قصة حياته",
 
     // Popular Episodes Section
     "popular.badge": "الأكثر شعبية",
@@ -326,7 +328,7 @@ const translations = {
     "contact.general.value": "hazharsalam62@gmail.com",
 
     // Footer
-    "footer.rights": "© 2025 چیرۆکیان. جميع الحقوق محفوظة.",
+    "footer.rights": "© 2026 چیرۆکیان. جميع الحقوق محفوظة.",
     "footer.madeBy": "made by dolamari",
     "footer.tagline": "كل قصة مهمة. كل صوت ُحسُّن.",
   },
