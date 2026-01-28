@@ -65,9 +65,9 @@ const translations = {
     "videos.episode1.description":
       "Dr. Saeed Totmaee Tells His Life Story - Part 2",
     "videos.episode2.title":
-      "Saman's Mother Tells Her Life Story",
+      "Dr. Nermin Osman Tells Her Life Story",
     "videos.episode2.description":
-      "Saman's Mother Tells Her Life Story",
+      "Dr. Nermin Osman Tells Her Life Story",
     "videos.episode3.title":
       "Owner of Kebab Yasin Tells His Life Story",
     "videos.episode3.description":
@@ -102,9 +102,9 @@ const translations = {
     "social.facebook.handle": "chirokyan",
     "social.tiktok.handle": "@chirokyann",
     "social.youtube.followers": "140K+ Subscribers",
-    "social.instagram.followers": "50K+ Followers",
-    "social.facebook.followers": "Connections",
-    "social.tiktok.followers": "50K+ Followers",
+    "social.instagram.followers": "60K+ Followers",
+    "social.facebook.followers": "100K+ Followers",
+    "social.tiktok.followers": "75K+ Followers",
 
     // Contact Section
     "contact.title": "Get In Touch",
@@ -126,7 +126,7 @@ const translations = {
   },
   ku: {
     // Navigation
-    "nav.home": "خانە",
+    "nav.home": "سەرەتا",
     "nav.videos": "ڤیدیۆکان",
     "nav.about": "دەربارە",
     "nav.social": "سۆشیال میدیا",
@@ -171,9 +171,9 @@ const translations = {
     "videos.episode1.description":
       "دکتۆر سەعید توتمەیی چیرۆکی ژیانی خۆی دەگێڕێتەوە - بەشی دووەم",
     "videos.episode2.title":
-      "دایکی سامان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر نەرمین عثمان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode2.description":
-      "دایکی سامان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر نەرمین عثمان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode3.title":
       "خاوەنی کەباب یاسین چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode3.description":
@@ -218,7 +218,7 @@ const translations = {
       "چیرۆکێکت هەیە بۆ هاوبەشکردن یان حەزت لە سپۆنسەرکردن هەیە؟ خۆشحاڵ دەبین لە بیستنی دەنگت.",
     "contact.email.label": "ئیمەڵمان بۆ بنێرە",
     "contact.email.value": "hazharsalam62@gmail.com",
-    "contact.phone.label": "پەیوەندی بە ێلەفۆن",
+    "contact.phone.label": "پەیوەندی بە تێلەفۆن",
     "contact.sponsorship.label": "بۆ پرسیاری سپۆنسەرکردن",
     "contact.sponsorship.value": "hazharsalam62@gmail.com",
     "contact.general.label": "پرسیارە گشتییەکان",
@@ -264,7 +264,7 @@ const translations = {
     "about.founder.name": "دکتور هەزار سلام",
     "about.founder.role": "المؤسس والمقدم",
     "about.founder.bio":
-      "مستمع شغوف مكرس لمشاركة الأصوات الأصيلة والمحادثات الهادفة.",
+      "مستمع شغوف مكرس لمشاركة الأصوات الأصي��ة والمحادثات الهادفة.",
 
     // Videos Section
     "videos.title": "أحدث الحلقات",
@@ -276,8 +276,8 @@ const translations = {
       "دكتور سعيد توتماي يروي قصة حياته - الجزء 2",
     "videos.episode1.description":
       "دكتور سعيد توتماي يروي قصة حياته - الجزء 2",
-    "videos.episode2.title": "أم سامان تروي قصة حياتها",
-    "videos.episode2.description": "أم سامان تروي قصة حياتها",
+    "videos.episode2.title": "دكتورة نيرمين عثمان تروي قصة حياتها",
+    "videos.episode2.description": "دكتورة نيرمين عثمان تروي قصة حياتها",
     "videos.episode3.title": "مالك كباب ياسين يروي قصة حياته",
     "videos.episode3.description":
       "مالك كباب ياسين يروي قصة حياته",
