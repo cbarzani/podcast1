@@ -16,9 +16,9 @@ const videos = [
     id: 2,
     titleKey: 'videos.episode2.title',
     descriptionKey: 'videos.episode2.description',
-    thumbnail: 'https://img.youtube.com/vi/wSRFRpUc_uc/maxresdefault.jpg',
+    thumbnail: 'https://img.youtube.com/vi/ddCkr5maaGQ/maxresdefault.jpg',
     duration: '45:22',
-    url: 'https://youtu.be/wSRFRpUc_uc?si=GTxsGzvgn86tjZGJ'
+    url: 'https://youtu.be/ddCkr5maaGQ?si=CgdddyHGDSWiWDv5'
   },
   {
     id: 3,
