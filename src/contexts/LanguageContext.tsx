@@ -61,17 +61,17 @@ const translations = {
     "videos.viewAll": "View All Episodes on YouTube",
     "videos.watchAll": "Watch All Episodes",
     "videos.episode1.title":
-      "Dr. Saeed Totmaee Tells His Life Story - Part 2",
+      "Dr. Jafar Shekhelislami Mokri Tells His Life Story",
     "videos.episode1.description":
-      "Dr. Saeed Totmaee Tells His Life Story - Part 2",
+      "Dr. Jafar Shekhelislami Mokri Tells His Life Story",
     "videos.episode2.title":
       "Dr. Nermin Osman Tells Her Life Story",
     "videos.episode2.description":
       "Dr. Nermin Osman Tells Her Life Story",
     "videos.episode3.title":
-      "Owner of Kebab Yasin Tells His Life Story",
+      "Dr. Saeed Totmaee Tells His Life Story - Part 2",
     "videos.episode3.description":
-      "Owner of Kebab Yasin Tells His Life Story",
+      "Dr. Saeed Totmaee Tells His Life Story - Part 2",
 
     // Popular Episodes Section
     "popular.badge": "Most Popular",
@@ -102,9 +102,9 @@ const translations = {
     "social.facebook.handle": "chirokyan",
     "social.tiktok.handle": "@chirokyann",
     "social.youtube.followers": "140K+ Subscribers",
-    "social.instagram.followers": "60K+ Followers",
-    "social.facebook.followers": "100K+ Followers",
-    "social.tiktok.followers": "75K+ Followers",
+    "social.instagram.followers": "50K+ Followers",
+    "social.facebook.followers": "Connections",
+    "social.tiktok.followers": "50K+ Followers",
 
     // Contact Section
     "contact.title": "Get In Touch",
@@ -126,7 +126,7 @@ const translations = {
   },
   ku: {
     // Navigation
-    "nav.home": "سەرەتا",
+    "nav.home": "خانە",
     "nav.videos": "ڤیدیۆکان",
     "nav.about": "دەربارە",
     "nav.social": "سۆشیال میدیا",
@@ -167,17 +167,17 @@ const translations = {
     "videos.viewAll": "هەموو بەشەکان لە یوتیوب ببینە",
     "videos.watchAll": "هەموو بەشەکان ببینە",
     "videos.episode1.title":
-      "دکتۆر سەعید توتمەیی چیرۆکی ژیانی خۆی دەگێڕێتەوە - بەشی دووەم",
+      "دکتۆر جەعفەر شێخەلیسلامی موکری چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode1.description":
-      "دکتۆر سەعید توتمەیی چیرۆکی ژیانی خۆی دەگێڕێتەوە - بەشی دووەم",
+      "دکتۆر جەعفەر شێخەلیسلامی موکری چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode2.title":
       "دکتۆر نەرمین عثمان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode2.description":
       "دکتۆر نەرمین عثمان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode3.title":
-      "خاوەنی کەباب یاسین چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر سەعید توتمەیی چیرۆکی ژیانی خۆی دەگێڕێتەوە - بەشی دووەم",
     "videos.episode3.description":
-      "خاوەنی کەباب یاسین چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر سەعید توتمەیی چیرۆکی ژیانی خۆی دەگێڕێتەوە - بەشی دووەم",
 
     // Popular Episodes Section
     "popular.badge": "پێکەوەکەرەتەرین",
@@ -198,7 +198,7 @@ const translations = {
     // Social Media Section
     "social.title": "پەیوەندیمان پێوە بکە",
     "social.description":
-      "لە سۆشیال میدیادا فۆڵۆومان بکە بۆ نوێکاری، ناوەڕۆکی پشت ڕوداو و زیاتر",
+      "لە سۆشیال میدیادا فۆڵۆومان بکە بۆ نوێکاری�� ناوەڕۆکی پشت ڕوداو و زیاتر",
     "social.youtube": "یوتیوب",
     "social.instagram": "ئینستاگرام",
     "social.facebook": "فەیسبووک",
@@ -218,7 +218,7 @@ const translations = {
       "چیرۆکێکت هەیە بۆ هاوبەشکردن یان حەزت لە سپۆنسەرکردن هەیە؟ خۆشحاڵ دەبین لە بیستنی دەنگت.",
     "contact.email.label": "ئیمەڵمان بۆ بنێرە",
     "contact.email.value": "hazharsalam62@gmail.com",
-    "contact.phone.label": "پەیوەندی بە تێلەفۆن",
+    "contact.phone.label": "پەیوەندی بە ێلەفۆن",
     "contact.sponsorship.label": "بۆ پرسیاری سپۆنسەرکردن",
     "contact.sponsorship.value": "hazharsalam62@gmail.com",
     "contact.general.label": "پرسیارە گشتییەکان",
@@ -264,7 +264,7 @@ const translations = {
     "about.founder.name": "دکتور هەزار سلام",
     "about.founder.role": "المؤسس والمقدم",
     "about.founder.bio":
-      "مستمع شغوف مكرس لمشاركة الأصوات الأصي��ة والمحادثات الهادفة.",
+      "مستمع شغوف مكرس لمشاركة الأصوات الأصيلة والمحادثات الهادفة.",
 
     // Videos Section
     "videos.title": "أحدث الحلقات",
@@ -273,14 +273,15 @@ const translations = {
     "videos.viewAll": "شاهد جميع الحلقات على يوتيوب",
     "videos.watchAll": "شاهد جميع الحلقات",
     "videos.episode1.title":
-      "دكتور سعيد توتماي يروي قصة حياته - الجزء 2",
+      "دكتور جافار شخيليسامي موكري يروي قصة حياته",
     "videos.episode1.description":
+      "دكتور جافار شخيليسامي موكري يروي قصة حياته",
+    "videos.episode2.title": "دكتور نيرمين عثمان تروي قصة حياتها",
+    "videos.episode2.description": "دكتور نيرمين عثمان تروي قصة حياتها",
+    "videos.episode3.title":
       "دكتور سعيد توتماي يروي قصة حياته - الجزء 2",
-    "videos.episode2.title": "دكتورة نيرمين عثمان تروي قصة حياتها",
-    "videos.episode2.description": "دكتورة نيرمين عثمان تروي قصة حياتها",
-    "videos.episode3.title": "مالك كباب ياسين يروي قصة حياته",
     "videos.episode3.description":
-      "مالك كباب ياسين يروي قصة حياته",
+      "دكتور سعيد توتماي يروي قصة حياته - الجزء 2",
 
     // Popular Episodes Section
     "popular.badge": "الأكثر شعبية",
