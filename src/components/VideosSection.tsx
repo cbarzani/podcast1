@@ -8,25 +8,25 @@ const videos = [
     id: 1,
     titleKey: 'videos.episode1.title',
     descriptionKey: 'videos.episode1.description',
-    thumbnail: 'https://img.youtube.com/vi/hLs2tMZCbeg/maxresdefault.jpg',
+    thumbnail: 'https://img.youtube.com/vi/WmY2Qre2GE4/maxresdefault.jpg',
     duration: '45:22',
-    url: 'https://youtu.be/hLs2tMZCbeg?si=Z2JU56Zj3Ba4dHEQ'
+    url: 'https://youtu.be/WmY2Qre2GE4?si=Zkib4uNSdm_bRBD3'
   },
   {
     id: 2,
     titleKey: 'videos.episode2.title',
     descriptionKey: 'videos.episode2.description',
-    thumbnail: 'https://img.youtube.com/vi/ddCkr5maaGQ/maxresdefault.jpg',
+    thumbnail: 'https://img.youtube.com/vi/hLs2tMZCbeg/maxresdefault.jpg',
     duration: '45:22',
-    url: 'https://youtu.be/ddCkr5maaGQ?si=CgdddyHGDSWiWDv5'
+    url: 'https://youtu.be/hLs2tMZCbeg?si=Z2JU56Zj3Ba4dHEQ'
   },
   {
     id: 3,
     titleKey: 'videos.episode3.title',
     descriptionKey: 'videos.episode3.description',
-    thumbnail: 'https://img.youtube.com/vi/7Sng33Z_Uw8/maxresdefault.jpg',
+    thumbnail: 'https://img.youtube.com/vi/ddCkr5maaGQ/maxresdefault.jpg',
     duration: '45:22',
-    url: 'https://youtu.be/7Sng33Z_Uw8?si=QZfZQ19mRPrBWLOI'
+    url: 'https://youtu.be/ddCkr5maaGQ?si=CgdddyHGDSWiWDv5'
   }
 ];
 
