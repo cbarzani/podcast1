@@ -37,7 +37,7 @@ export function SocialMediaSection() {
     {
       name: 'TikTok',
       nameKey: 'social.tiktok',
-      icon: Music,
+      icon: Tiktok,
       url: 'https://www.tiktok.com/@chirokyann',
       color: 'hover:bg-[#000000]',
       handleKey: 'social.tiktok.handle',
