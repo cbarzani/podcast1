@@ -19,6 +19,11 @@ const LanguageContext = createContext<
 
 const translations = {
   en: {
+    // SEO
+    "seo.title": "چیرۆکیان - Chirokyan Podcast | Real Stories, Real Voices",
+    "seo.description": "Watch authentic conversations and compelling life stories on Chirokyan Podcast. Featuring interviews with inspiring guests sharing their journeys. Available on YouTube, Instagram, Facebook, and TikTok.",
+    "seo.keywords": "Chirokyan, چیرۆکیان, Kurdish podcast, life stories, interviews, YouTube podcast, Kurdish interviews, real stories, inspiring conversations, Hazhar Salam",
+    
     // Navigation
     "nav.home": "Home",
     "nav.videos": "Videos",
@@ -61,17 +66,17 @@ const translations = {
     "videos.viewAll": "View All Episodes on YouTube",
     "videos.watchAll": "Watch All Episodes",
     "videos.episode1.title":
-      "Haji Karwan Tells His Life Story",
+      "M. Fatih Sharastani Tells His Life Story",
     "videos.episode1.description":
-      "Haji Karwan Tells His Life Story",
+      "M. Fatih Sharastani Tells His Life Story",
     "videos.episode2.title":
-      "M. Fatih Sharastani Tells His Life Story",
+      "Dr. Jafar Shekhelislami Mokri Tells His Life Story",
     "videos.episode2.description":
-      "M. Fatih Sharastani Tells His Life Story",
+      "Dr. Jafar Shekhelislami Mokri Tells His Life Story",
     "videos.episode3.title":
-      "Dr. Jafar Shekhelislami Mokri Tells His Life Story",
+      "Dr. Nermin Osman Tells Her Life Story",
     "videos.episode3.description":
-      "Dr. Jafar Shekhelislami Mokri Tells His Life Story",
+      "Dr. Nermin Osman Tells Her Life Story",
 
     // Popular Episodes Section
     "popular.badge": "Most Popular",
@@ -86,7 +91,7 @@ const translations = {
       "Dr. Farhad Pirbal Tells His Life Story",
     "popular.episode3.title": "Most Watched Episode #3",
     "popular.episode3.description":
-      "M. Ahmad Shafei Tells His Life Story",
+      "Dr. Karim Sharif Qarachatani Tells His Life Story",
     "popular.views": "views",
 
     // Social Media Section
@@ -125,6 +130,11 @@ const translations = {
       "Every story matters. Every voice counts.",
   },
   ku: {
+    // SEO
+    "seo.title": "چیرۆکیان - پۆدکاستی کوردی | چیرۆکی ڕاستەقینە، دەنگی ڕاستەقینە",
+    "seo.description": "سەیری گفتوگۆی ڕاستەقینە و چیرۆکی ژیانی سەرنجڕاکێش بکە لە پۆدکاستی چیرۆکیان. چاوپێکەوتن لەگەڵ میوانە ئیلهامبەخشەکان کە چیرۆکی ژیانیان دەگێڕنەوە. بەردەستە لە یوتیوب، ئینستاگرام، فەیسبووک و تیکتۆک.",
+    "seo.keywords": "چیرۆکیان, Chirokyan, پۆدکاستی کوردی, چیرۆکی ژیان, چاوپێکەوتن, پۆدکاستی یوتیوب, چاوپێکەوتنی کوردی, چیرۆکی ڕاستەقینە, گفتوگۆی ئیلهامبەخش, هەژار سەلام",
+    
     // Navigation
     "nav.home": "خانە",
     "nav.videos": "ڤیدیۆکان",
@@ -163,21 +173,21 @@ const translations = {
     // Videos Section
     "videos.title": "دوایین بەشەکان",
     "videos.description":
-      "سەیری دوایین گفتوگۆکانمان بکە و چیرۆکە سەرنجڕاکشەکان بدۆزەرەوە",
+      "سەیری دوایین گفتوگۆکانمن بکە و چیرۆکە سەرنجڕاکشەکان بدۆزەرەوە",
     "videos.viewAll": "هەموو بەشەکان لە یوتیوب ببینە",
     "videos.watchAll": "هەموو بەشەکان ببینە",
     "videos.episode1.title":
-      "حاجی کاروان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "م فاتیح شارستێنی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode1.description":
-      "حاجی کاروان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "م فاتیح شارستێنی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode2.title":
-      "م فاتیح شارستێنی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر جافار شەخەلیسلامی مۆکری چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode2.description":
-      "م فاتیح شارستێنی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر جافار شەخەلیسلامی مۆکری چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode3.title":
-      "دکتۆر جافار شەخەلیسلامی مۆکری چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر نەرمین عثمان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode3.description":
-      "دکتۆر جافار شەخەلیسلامی مۆکری چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر نەرمین عثمان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
 
     // Popular Episodes Section
     "popular.badge": "پێکەوەکەرەتەرین",
@@ -192,7 +202,7 @@ const translations = {
       "د.فەرهاد پیربەڵ چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "popular.episode3.title": "زۆرترین بینراو #3",
     "popular.episode3.description":
-      "م.ئەحمەد شافعی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "د.کەیم شەریف قەرەچەتانی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "popular.views": "بینەران",
 
     // Social Media Section
@@ -218,7 +228,7 @@ const translations = {
       "چیرۆکێکت هەیە بۆ هاوبەشکردن یان حەزت لە سپۆنسەرکردن هەیە؟ خۆشحاڵ دەبین لە بیستنی دەنگت.",
     "contact.email.label": "ئیمەڵمان بۆ بنێرە",
     "contact.email.value": "hazharsalam62@gmail.com",
-    "contact.phone.label": "پەیوەندی بە تێلەفۆن",
+    "contact.phone.label": "پەیوەندی بە ێلەفۆن",
     "contact.sponsorship.label": "بۆ پرسیاری سپۆنسەرکردن",
     "contact.sponsorship.value": "hazharsalam62@gmail.com",
     "contact.general.label": "پرسیارە گشتییەکان",
@@ -231,6 +241,11 @@ const translations = {
       "هەموو چیرۆکێک گرنگە. هەموو دەنگێک دەژمێردرێت.",
   },
   ar: {
+    // SEO
+    "seo.title": "چیرۆکیان - بودكاست كردي | قصص حقيقية، أصوات حقيقية",
+    "seo.description": "شاهد محادثات أصيلة وقصص حياة مقنعة على بودكاست چیرۆکیان. يضم مقابلات مع ضيوف ملهمين يشاركون رحلاتهم. متاح على يوتيوب وإنستغرام وفيسبوك وتيك توك.",
+    "seo.keywords": "چیرۆکیان, Chirokyan, بودكاست كردي, قصص الحياة, مقابلات, بودكاست يوتيوب, مقابلات كردية, قصص حقيقية, محادثات ملهمة, هزار سلام",
+    
     // Navigation
     "nav.home": "الرئيسية",
     "nav.videos": "الفيديوهات",
@@ -273,17 +288,17 @@ const translations = {
     "videos.viewAll": "شاهد جميع الحلقات على يوتيوب",
     "videos.watchAll": "شاهد جميع الحلقات",
     "videos.episode1.title":
-      "حاجي كاروان يروي قصة حياته",
+      "م. فاتيح شاراستاني يروي قصة حياته",
     "videos.episode1.description":
-      "حاجي كاروان يروي قصة حياته",
+      "م. فاتيح شاراستاني يروي قصة حياته",
     "videos.episode2.title":
-      "م. فاتيح شاراستاني يروي قصة حياته",
+      "دكتور جافار شخيليسامي موكري يروي قصة حياته",
     "videos.episode2.description":
-      "م. فاتيح شاراستاني يروي قصة حياته",
+      "دكتور جافار شخيليسامي موكري يروي قصة حياته",
     "videos.episode3.title":
-      "دكتور جافار شخيليسامي موكري يروي قصة حياته",
+      "دكتور نيرمين عثمان تروي قصة حياتها",
     "videos.episode3.description":
-      "دكتور جافار شخيليسامي موكري يروي قصة حياته",
+      "دكتور نيرمين عثمان تروي قصة حياتها",
 
     // Popular Episodes Section
     "popular.badge": "الأكثر شعبية",
@@ -298,7 +313,7 @@ const translations = {
       "د. فرهاد بيربال يروي قصة حياته",
     "popular.episode3.title": "الحلقة الأكثر مشاهدة #3",
     "popular.episode3.description":
-      "م. أحمد شافعي يروي قصة حياته",
+      "د. كريم شريف قراجاتاني يروي قصة حياته",
     "popular.views": "مشاهدات",
 
     // Social Media Section
@@ -322,7 +337,7 @@ const translations = {
     "contact.title": "تواصل معنا",
     "contact.description":
       "هل لديك قصة لمشاركتها أو مهتم بفرص الرعاية؟ نود أن نسمع منك.",
-    "contact.email.label": "راسلنا عبر البريد الإلكتروني",
+    "contact.email.label": "رالنا عبر البريد الإلكتروني",
     "contact.email.value": "hazharsalam62@gmail.com",
     "contact.phone.label": "اتصل بنا",
     "contact.sponsorship.label": "لاستفسارات الرعاية",
