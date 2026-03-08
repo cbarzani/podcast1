@@ -19,11 +19,6 @@ const LanguageContext = createContext<
 
 const translations = {
   en: {
-    // SEO
-    "seo.title": "چیرۆکیان - Chirokyan Podcast | Real Stories, Real Voices",
-    "seo.description": "Watch authentic conversations and compelling life stories on Chirokyan Podcast. Featuring interviews with inspiring guests sharing their journeys. Available on YouTube, Instagram, Facebook, and TikTok.",
-    "seo.keywords": "Chirokyan, چیرۆکیان, Kurdish podcast, life stories, interviews, YouTube podcast, Kurdish interviews, real stories, inspiring conversations, Hazhar Salam",
-    
     // Navigation
     "nav.home": "Home",
     "nav.videos": "Videos",
@@ -130,11 +125,6 @@ const translations = {
       "Every story matters. Every voice counts.",
   },
   ku: {
-    // SEO
-    "seo.title": "چیرۆکیان - پۆدکاستی کوردی | چیرۆکی ڕاستەقینە، دەنگی ڕاستەقینە",
-    "seo.description": "سەیری گفتوگۆی ڕاستەقینە و چیرۆکی ژیانی سەرنجڕاکێش بکە لە پۆدکاستی چیرۆکیان. چاوپێکەوتن لەگەڵ میوانە ئیلهامبەخشەکان کە چیرۆکی ژیانیان دەگێڕنەوە. بەردەستە لە یوتیوب، ئینستاگرام، فەیسبووک و تیکتۆک.",
-    "seo.keywords": "چیرۆکیان, Chirokyan, پۆدکاستی کوردی, چیرۆکی ژیان, چاوپێکەوتن, پۆدکاستی یوتیوب, چاوپێکەوتنی کوردی, چیرۆکی ڕاستەقینە, گفتوگۆی ئیلهامبەخش, هەژار سەلام",
-    
     // Navigation
     "nav.home": "خانە",
     "nav.videos": "ڤیدیۆکان",
@@ -150,7 +140,7 @@ const translations = {
     "hero.title": "چیرۆکیان",
     "hero.subtitle": "چیرۆکی ڕاستەقینە، دەنگی ڕاستەقینە",
     "hero.description":
-      "پێکەوە بەشداری گفتوگۆی ڕاستەقینە و چیرۆکە سەرجڕاکێشەکان بکە",
+      "پێکەوە بەشداری گفتوگۆی ڕاستەقینە و چیرۆکە سەرنجڕاکێشەکان بکە",
     "hero.watchLatest": "سەیری دوایین بەش بکە",
     "hero.exploreMore": "زیاتر بگەڕێ",
 
@@ -173,7 +163,7 @@ const translations = {
     // Videos Section
     "videos.title": "دوایین بەشەکان",
     "videos.description":
-      "سەیری دوایین گفتوگۆکانمن بکە و چیرۆکە سەرنجڕاکشەکان بدۆزەرەوە",
+    "سەیری دوایین گفتوگۆکان بکە و چیرۆکە سەرنجڕاکشەکان بدۆزەرەوە",
     "videos.viewAll": "هەموو بەشەکان لە یوتیوب ببینە",
     "videos.watchAll": "هەموو بەشەکان ببینە",
     "videos.episode1.title":
@@ -241,11 +231,6 @@ const translations = {
       "هەموو چیرۆکێک گرنگە. هەموو دەنگێک دەژمێردرێت.",
   },
   ar: {
-    // SEO
-    "seo.title": "چیرۆکیان - بودكاست كردي | قصص حقيقية، أصوات حقيقية",
-    "seo.description": "شاهد محادثات أصيلة وقصص حياة مقنعة على بودكاست چیرۆکیان. يضم مقابلات مع ضيوف ملهمين يشاركون رحلاتهم. متاح على يوتيوب وإنستغرام وفيسبوك وتيك توك.",
-    "seo.keywords": "چیرۆکیان, Chirokyan, بودكاست كردي, قصص الحياة, مقابلات, بودكاست يوتيوب, مقابلات كردية, قصص حقيقية, محادثات ملهمة, هزار سلام",
-    
     // Navigation
     "nav.home": "الرئيسية",
     "nav.videos": "الفيديوهات",
@@ -337,7 +322,7 @@ const translations = {
     "contact.title": "تواصل معنا",
     "contact.description":
       "هل لديك قصة لمشاركتها أو مهتم بفرص الرعاية؟ نود أن نسمع منك.",
-    "contact.email.label": "رالنا عبر البريد الإلكتروني",
+    "contact.email.label": "راسلنا عبر البريد الإلكتروني",
     "contact.email.value": "hazharsalam62@gmail.com",
     "contact.phone.label": "اتصل بنا",
     "contact.sponsorship.label": "لاستفسارات الرعاية",
