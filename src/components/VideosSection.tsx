@@ -1,39 +1,4 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Play, Youtube, MousePointerClick } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
 
-const videos = [
-  {
-    id: 1,
-    titleKey: 'videos.episode1.title',
-    descriptionKey: 'videos.episode1.description',
-    thumbnail: 'https://img.youtube.com/vi/i__0EMMJiyY/maxresdefault.jpg',
-    duration: '45:22',
-    url: 'https://youtu.be/i__0EMMJiyY?si=5Mt-KTJ9Frxb2Wn7'
-  },
-  {
-    id: 2,
-    titleKey: 'videos.episode2.title',
-    descriptionKey: 'videos.episode2.description',
-    thumbnail: 'https://img.youtube.com/vi/WmY2Qre2GE4/maxresdefault.jpg',
-    duration: '45:22',
-    url: 'https://youtu.be/WmY2Qre2GE4?si=Zkib4uNSdm_bRBD3'
-  },
-  {
-    id: 3,
-    titleKey: 'videos.episode3.title',
-    descriptionKey: 'videos.episode3.description',
-    thumbnail: 'https://img.youtube.com/vi/hLs2tMZCbeg/maxresdefault.jpg',
-    duration: '45:22',
-    url: 'https://youtu.be/hLs2tMZCbeg?si=Z2JU56Zj3Ba4dHEQ'
-  }
-];
-
-export function VideosSection() {
-  const { t } = useLanguage();
-  
-  return (
     <section id="videos" className="py-20 bg-[#f5f1e8]">
       <div className="container mx-auto px-4">
         <motion.div 
