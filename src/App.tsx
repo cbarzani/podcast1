@@ -1,5 +1,5 @@
-import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
-import { SEO } from './components/SEO';
+import React from 'react';
+import { LanguageProvider } from './contexts/LanguageContext';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
 import { VideosSection } from './components/VideosSection';
@@ -11,35 +11,23 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { ScrollToTop } from './components/ScrollToTop';
 
-function AppContent() {
-  const { language } = useLanguage();
-  
-  // Use Doran Bold font for all languages
-  const fontFamily = "'Doran', 'Doran Bold', sans-serif";
-  
-  return (
-    <div className="min-h-screen bg-white" style={{ fontFamily }}>
-      <SEO />
-      <Header />
-      <main>
-        <HeroSection />
-        <VideosSection />
-        <PopularEpisodesSection />
-        <SocialMediaSection />
-        <AboutSection />
-        <FounderSection />
-        <ContactSection />
-      </main>
-      <Footer />
-      <ScrollToTop />
-    </div>
-  );
-}
-
 export default function App() {
   return (
     <LanguageProvider>
-      <AppContent />
+      <div className="min-h-screen bg-white">
+        <Header />
+        <main>
+          <HeroSection />
+          <VideosSection />
+          <PopularEpisodesSection />
+          <SocialMediaSection />
+          <AboutSection />
+          <FounderSection />
+          <ContactSection />
+        </main>
+        <Footer />
+        <ScrollToTop />
+      </div>
     </LanguageProvider>
   );
 }
