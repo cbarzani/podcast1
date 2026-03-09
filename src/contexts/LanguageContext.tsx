@@ -61,17 +61,17 @@ const translations = {
     "videos.viewAll": "View All Episodes on YouTube",
     "videos.watchAll": "Watch All Episodes",
     "videos.episode1.title":
-      "M. Fatih Sharastani Tells His Life Story",
+      "Haji Karwan Tells His Life Story",
     "videos.episode1.description":
-      "M. Fatih Sharastani Tells His Life Story",
+      "Haji Karwan Tells His Life Story",
     "videos.episode2.title":
-      "Dr. Jafar Shekhelislami Mokri Tells His Life Story",
+      "M. Fatih Sharastani Tells His Life Story",
     "videos.episode2.description":
-      "Dr. Jafar Shekhelislami Mokri Tells His Life Story",
+      "M. Fatih Sharastani Tells His Life Story",
     "videos.episode3.title":
-      "Dr. Nermin Osman Tells Her Life Story",
+      "Dr. Jafar Shekhelislami Mokri Tells His Life Story",
     "videos.episode3.description":
-      "Dr. Nermin Osman Tells Her Life Story",
+      "Dr. Jafar Shekhelislami Mokri Tells His Life Story",
 
     // Popular Episodes Section
     "popular.badge": "Most Popular",
@@ -86,7 +86,7 @@ const translations = {
       "Dr. Farhad Pirbal Tells His Life Story",
     "popular.episode3.title": "Most Watched Episode #3",
     "popular.episode3.description":
-      "Dr. Karim Sharif Qarachatani Tells His Life Story",
+      "M. Ahmad Shafei Tells His Life Story",
     "popular.views": "views",
 
     // Social Media Section
@@ -140,7 +140,7 @@ const translations = {
     "hero.title": "چیرۆکیان",
     "hero.subtitle": "چیرۆکی ڕاستەقینە، دەنگی ڕاستەقینە",
     "hero.description":
-      "پێکەوە بەشداری گفتوگۆی ڕاستەقینە و چیرۆکە سەرنجڕاکێشەکان بکە",
+      "پێکەوە بەشداری گفتوگۆی ڕاستەقینە و چیرۆکە سەرجڕاکێشەکان بکە",
     "hero.watchLatest": "سەیری دوایین بەش بکە",
     "hero.exploreMore": "زیاتر بگەڕێ",
 
@@ -163,21 +163,21 @@ const translations = {
     // Videos Section
     "videos.title": "دوایین بەشەکان",
     "videos.description":
-    "سەیری دوایین گفتوگۆکان بکە و چیرۆکە سەرنجڕاکشەکان بدۆزەرەوە",
+      "سەیری دوایین گفتوگۆکانمان بکە و چیرۆکە سەرنجڕاکشەکان بدۆزەرەوە",
     "videos.viewAll": "هەموو بەشەکان لە یوتیوب ببینە",
     "videos.watchAll": "هەموو بەشەکان ببینە",
     "videos.episode1.title":
-      "م فاتیح شارستێنی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "حاجی کاروان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode1.description":
-      "م فاتیح شارستێنی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "حاجی کاروان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode2.title":
-      "دکتۆر جافار شەخەلیسلامی مۆکری چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "م فاتیح شارستێنی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode2.description":
-      "دکتۆر جافار شەخەلیسلامی مۆکری چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "م فاتیح شارستێنی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode3.title":
-      "دکتۆر نەرمین عثمان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر جافار شەخەلیسلامی مۆکری چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "videos.episode3.description":
-      "دکتۆر نەرمین عثمان چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "دکتۆر جافار شەخەلیسلامی مۆکری چیرۆکی ژیانی خۆی دەگێڕێتەوە",
 
     // Popular Episodes Section
     "popular.badge": "پێکەوەکەرەتەرین",
@@ -192,7 +192,7 @@ const translations = {
       "د.فەرهاد پیربەڵ چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "popular.episode3.title": "زۆرترین بینراو #3",
     "popular.episode3.description":
-      "د.کەیم شەریف قەرەچەتانی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
+      "م.ئەحمەد شافعی چیرۆکی ژیانی خۆی دەگێڕێتەوە",
     "popular.views": "بینەران",
 
     // Social Media Section
@@ -218,7 +218,7 @@ const translations = {
       "چیرۆکێکت هەیە بۆ هاوبەشکردن یان حەزت لە سپۆنسەرکردن هەیە؟ خۆشحاڵ دەبین لە بیستنی دەنگت.",
     "contact.email.label": "ئیمەڵمان بۆ بنێرە",
     "contact.email.value": "hazharsalam62@gmail.com",
-    "contact.phone.label": "پەیوەندی بە ێلەفۆن",
+    "contact.phone.label": "پەیوەندی بە تێلەفۆن",
     "contact.sponsorship.label": "بۆ پرسیاری سپۆنسەرکردن",
     "contact.sponsorship.value": "hazharsalam62@gmail.com",
     "contact.general.label": "پرسیارە گشتییەکان",
@@ -273,17 +273,17 @@ const translations = {
     "videos.viewAll": "شاهد جميع الحلقات على يوتيوب",
     "videos.watchAll": "شاهد جميع الحلقات",
     "videos.episode1.title":
-      "م. فاتيح شاراستاني يروي قصة حياته",
+      "حاجي كاروان يروي قصة حياته",
     "videos.episode1.description":
-      "م. فاتيح شاراستاني يروي قصة حياته",
+      "حاجي كاروان يروي قصة حياته",
     "videos.episode2.title":
-      "دكتور جافار شخيليسامي موكري يروي قصة حياته",
+      "م. فاتيح شاراستاني يروي قصة حياته",
     "videos.episode2.description":
-      "دكتور جافار شخيليسامي موكري يروي قصة حياته",
+      "م. فاتيح شاراستاني يروي قصة حياته",
     "videos.episode3.title":
-      "دكتور نيرمين عثمان تروي قصة حياتها",
+      "دكتور جافار شخيليسامي موكري يروي قصة حياته",
     "videos.episode3.description":
-      "دكتور نيرمين عثمان تروي قصة حياتها",
+      "دكتور جافار شخيليسامي موكري يروي قصة حياته",
 
     // Popular Episodes Section
     "popular.badge": "الأكثر شعبية",
@@ -298,7 +298,7 @@ const translations = {
       "د. فرهاد بيربال يروي قصة حياته",
     "popular.episode3.title": "الحلقة الأكثر مشاهدة #3",
     "popular.episode3.description":
-      "د. كريم شريف قراجاتاني يروي قصة حياته",
+      "م. أحمد شافعي يروي قصة حياته",
     "popular.views": "مشاهدات",
 
     // Social Media Section
